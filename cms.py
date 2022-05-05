@@ -5,7 +5,7 @@ import re
 from collections import defaultdict
 from functools import lru_cache
 
-REST_URL = "https://td.bits-hyderabad.ac.in/moodle/webservice/rest/server.php"
+REST_URL = "https://cms.bits-hyderabad.ac.in/webservice/rest/server.php"
 
 
 def make_req(verb, params={}, data=None):
